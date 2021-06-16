@@ -1,9 +1,9 @@
 import React from 'react'
 
 export default function getRandom(min, max) {
-    var min = 0
-    var max = 50
-    var number = Math.floor(Math.random() * (max - min)) + min
+    const min = 0
+    const max = 50
+    const number = Math.floor(Math.random() * (max - min)) + min
     
     return (
         <div>
