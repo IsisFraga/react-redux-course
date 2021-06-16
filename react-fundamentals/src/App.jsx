@@ -3,11 +3,13 @@ import React from 'react'
 import First from './components/basics/First'
 import WithParam from './components/basics/WithParam'
 import Fragment from './components/basics/Fragment'
+import Aleatory from './components/basics/Aleatory'
 
 export default() => {
     return (
         <div id="app">
             <h1>Fundamentos React (Arrow)</h1>
+            <Aleatory />
             <Fragment />
             <WithParam
                 titulo="Segundo Componente"
