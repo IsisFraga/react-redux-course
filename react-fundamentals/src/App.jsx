@@ -15,7 +15,7 @@ export default () => {
       <h1>Fundamentos React</h1>
       <div className="Cards">
         <Card title="#05 - Componente com Filhos" color="#00C8F8">
-          <Family lastName="Oliveira">
+          <Family lastName="Andrade">
             <FamilyMember name="Gustavo" />
             <FamilyMember name="Eron" />
             <FamilyMember name="Igor" />
