@@ -1,6 +1,7 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React, { cloneElement } from 'react'
 
-export default props => {
+const Family = props => {
 
     return (
         <div>
@@ -14,3 +15,5 @@ export default props => {
         </div>
     )
 }
+
+export default Family
