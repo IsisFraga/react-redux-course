@@ -9,7 +9,7 @@ import Card from "./components/layout/Card";
 import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
 
-export default () => {
+function App () {
   return (
     <div className="App">
       <h1>Fundamentos React</h1>
@@ -45,6 +45,8 @@ export default () => {
     </div>
   );
 };
+
+export default App
 // OUTRA FORMA DE ESCREVER A FUNÇÃO
 // utiliza-se o "_" quando não se tem parâmetro para a função
 // *************** início da função ******************

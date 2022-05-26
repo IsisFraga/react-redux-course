@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function First() {
+function First() {
     const msg = 'Seja bem vindo(a)!'
     return (
         <div>
@@ -10,3 +10,5 @@ export default function First() {
         </div>
     )
 }
+
+export default First
